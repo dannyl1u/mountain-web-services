@@ -70,4 +70,4 @@ if [ -z "$ngrok_url" ]; then
     exit 1
 fi
 
-echo "Your application is being served! ngrok URL: $ngrok_url"
+echo "🎉 Your application is being served at URL: $ngrok_url"
