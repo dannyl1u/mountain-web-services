@@ -1,12 +1,12 @@
 #!/bin/bash
 
-echo "Downloading ngrok..."
+echo "🏔️ Downloading ngrok..."
 curl -L https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz -o ngrok-v3-stable-linux-amd64.tgz
 
-echo "Extracting ngrok..."
+echo "🏔️ Extracting ngrok..."
 tar -xvzf ngrok-v3-stable-linux-amd64.tgz
 
-echo "Setting up ngrok..."
+echo "🏔️ Setting up ngrok..."
 mkdir -p ~/bin
 
 mv ngrok ~/bin/
@@ -19,16 +19,16 @@ fi
 # Source .bashrc to update PATH
 source ~/.bashrc
 
-echo "Please enter your ngrok passkey:"
+echo "🔐 Please enter your ngrok passkey:"
 read -s ngrok_passkey
 
 ~/bin/ngrok config add-authtoken "$ngrok_passkey"
 
-echo "ngrok has been configured with your passkey."
+echo "🔓 ngrok has been configured with your passkey."
 
 wait
 
-echo "Enter git repository URL to deploy:"
+echo "🗂️ Enter git repository URL to deploy:"
 read git_url
 
 if [ -z "$git_url" ]; then
@@ -43,7 +43,7 @@ if [ -d "$repo_dir" ]; then
     rm -rf "$repo_dir"
 fi
 
-echo "Cloning the repository..."
+echo "🏔️ Cloning the repository..."
 git clone "$git_url"
 
 if [ ! -d "$repo_dir" ]; then
@@ -53,12 +53,12 @@ fi
 
 cd "$repo_dir" || exit
 
-echo "Starting the Python HTTP server on port 8080..."
+echo "🏔️ Starting the Python HTTP server on port 8080..."
 nohup python3 -m http.server 8080 > http.log 2>&1 &
 
 sleep 5
 
-echo "Starting ngrok..."
+echo "🏔️ Starting ngrok..."
 nohup ~/bin/ngrok http 8080 --log=stdout > ngrok.log 2>&1 &
 
 sleep 10

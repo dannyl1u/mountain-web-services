@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Enter your SFU Computing ID:"
+echo "🌄 Enter your SFU Computing ID:"
 read username
 
 server="csil-cpu2.csil.sfu.ca"
