@@ -8,7 +8,7 @@ Before you start using this application, ensure you have the following prerequis
 - **Operating System**: macOS or Ubuntu
 - **ngrok Token**: An ngrok account and an authentication token are required. You can sign up at [ngrok's website](https://ngrok.com/) and find your token in the setup section of your dashboard.
 - **SFU VPN**: Access to SFU's (Simon Fraser University's) VPN is necessary for certain network operations. Ensure you're able to connect to the SFU VPN. Instructions and downloads can be found on the [SFU IT Services page](https://www.sfu.ca/itservices/technical/vpn.html).
-- **SSH Public/Private Key with SFU SSH**: You must have SSH keys set up for use with SFU's systems, username/password authentication is not supported. This involves generating a SSH key pair and adding the public key to your SFU account. Detailed instructions are available on [SFU's IT documentation](https://www.sfu.ca/itservices/technical/ssh/secure-shell.html).
+- **SSH Public/Private Key with SFU SSH**: You must have SSH keys set up for use with SFU's systems, username/password authentication is not supported. This involves generating a SSH key pair and adding the public key to your SFU account. Detailed instructions are available on [SFU's IT documentation](https://www.sfu.ca/computing/about/support/csil/unix.html#remote-access-linux-system).
 - **Git**: Git must be installed on your system to clone the repository. You can download Git from [git-scm.com](https://git-scm.com/).
 
 ## Installation and Usage
