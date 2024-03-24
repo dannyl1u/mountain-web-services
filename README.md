@@ -41,6 +41,8 @@ Please adhere to all SFU CSIL (Computing Science Instructional Labs) policies: h
 
 **Use at Your Own Risk**: The information and tools provided in this documentation are on an "as is" basis without warranties of any kind, either express or implied. The use of the tools, scripts, or information is entirely at the user's own risk. The creator or contributors of this documentation cannot be held responsible for any damages or losses that occur from using the content provided here. Users are encouraged to test and evaluate the tools and scripts in a safe, non-production environment before any operational use. By using the information provided, the user acknowledges and agrees to assume all risks associated with their use.
 
+This project, MWS S3, is not affiliated with or endorsed by Amazon Web Services (AWS) or Amazon S3. MWS S3 is a standalone project developed independently. Any resemblance to AWS services or terminology is purely coincidental.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
