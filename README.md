@@ -11,6 +11,10 @@ Before you start using this application, ensure you have the following prerequis
 - **SSH Public/Private Key with SFU SSH**: You must have SSH keys set up for use with SFU's systems, username/password authentication is not supported. This involves generating a SSH key pair and adding the public key to your SFU account. Detailed instructions are available on [SFU's IT documentation](https://www.sfu.ca/computing/about/support/csil/unix.html#remote-access-linux-system).
 - **Git**: Git must be installed on your system to clone the repository. You can download Git from [git-scm.com](https://git-scm.com/).
 
+## Features
+
+MWS S3 streamlines the deployment process by offering one-click deployment of HTML/CSS/JS assets directly from a Git repository. Users can simply provide the clone URL of their repository containing website files, and the deployment process is automated, making the website live instantly. It's important to note that currently, MWS S3 supports only HTML/CSS/JS files. Support for projects requiring build processes, such as applications built with React, is planned for a future release.
+
 ## Installation and Usage
 To install the application, follow these steps:
 
