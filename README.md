@@ -21,6 +21,7 @@ Before you start using this application, ensure you have the following prerequis
 MWS S3 streamlines the deployment process by offering one-click deployment of HTML/CSS/JS assets directly from a Git repository. Users can simply provide the clone URL of their repository containing website files, and the deployment process is automated, making the website live instantly. It's important to note that currently, MWS S3 supports only HTML/CSS/JS files. Support for projects requiring build processes, such as applications built with React, is planned for a future release.
 
 ## Installation and Usage
+**IMPORTANT: you must be connected to SFU VPN during these steps**
 To install the application, follow these steps:
 
 1. Open a terminal on your machine.
