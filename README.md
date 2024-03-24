@@ -33,10 +33,12 @@ To install the application, follow these steps:
   ```bash
    chmod +x setup_ngrok.sh ssh_execute.sh
   ```
-5. Run the script and enter passkeys, git clone urls, etc. as prompted
+5. Run the script and enter passkeys, ngrok Authtokens, git clone urls*, etc. as prompted
   ```bash
   ./ssh_execute.sh
   ```
+
+*Note: MWS S3 currently only supports git repositories containing static HTML/CS/JS content (see https://github.com/dannyl1u/demo-website as example), projects that require builds (e.g. React) will be supported at a later time. If you wish to deploy a React app, please upload the production build (i.e. output of `npm run build`). 
 
 ## Generating SSH Key pair
 1. **Generate SSH Key Pair:** Open a terminal and run `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`. Follow prompts to select file location and passphrase.
