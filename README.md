@@ -31,7 +31,7 @@ To install the application, follow these steps:
   ```bash
    chmod +x setup_ngrok.sh ssh_execute.sh
   ```
-5. Run the script and enter passkeys as prompted
+5. Run the script and enter passkeys, Git clone urls, etc. as prompted
   ```bash
   ./ssh_execute.sh
   ```
