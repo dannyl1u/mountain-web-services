@@ -51,7 +51,7 @@ To install the application, follow these steps:
 3. **Connect with SSH Key:** Connect to the server with `ssh -p 24 <YOUR_SFU_COMPUTING_ID>@csil-cpu2.csil.sfu.ca`. Enter your passphrase if prompted.
 
 ## Getting ngrok Authtoken
-1. Login or sign-up for an account at https://dashboard.ngrok.com/signup
+1. Login or sign-up for a free account at https://dashboard.ngrok.com/signup
 2. Navigate to **Your Authtoken** to copy the authtoken
 
 ## Disclaimer
