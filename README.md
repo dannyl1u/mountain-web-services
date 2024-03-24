@@ -1,5 +1,5 @@
 # Mountain Web Services - Summit Static Sites (S3)
-Instead of hosting on the [cloud](https://en.wikipedia.org/wiki/Cloud_computing) ☁️, **Mountain Web Services - Summit Static Sites (MWS S3)** lets you host your static assets on the [mountain](https://en.wikipedia.org/wiki/Burnaby_Mountain) 🏔️!
+Instead of hosting on the [cloud](https://en.wikipedia.org/wiki/Cloud_computing) ☁️, **Mountain Web Services - Summit Static Sites (MWS S3)** lets you host your static html/css/js websites (e.g. personal websites, portfolios, recipes, blogs, etc.), on the [mountain](https://en.wikipedia.org/wiki/Burnaby_Mountain) 🏔️! 
 
 ## Prerequisites
 
