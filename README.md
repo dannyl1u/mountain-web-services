@@ -38,6 +38,14 @@ To install the application, follow these steps:
   ./ssh_execute.sh
   ```
 
+## Generating SSH Key pair
+1. **Generate SSH Key Pair:** Open a terminal and run `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`. Follow prompts to select file location and passphrase.
+
+2. **Copy Public Key to Server:** Use `ssh-copy-id -i ~/.ssh/id_rsa.pub -p 24 <your_sfu_computing_id>@csil-cpu2.csil.sfu.ca` to copy your public key to the server. If `ssh-copy-id` fails, manually add your public key to `~/.ssh/authorized_keys` on the server.
+
+3. **Connect with SSH Key:** Connect to the server with `ssh -p 24 <your_sfu_computing_id>@csil-cpu2.csil.sfu.ca`. Enter your passphrase if prompted.
+
+
 ## Disclaimer
 Please adhere to all SFU CSIL (Computing Science Instructional Labs) policies: https://www.sfu.ca/computing/about/support/csil/policies.html  
 
