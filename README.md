@@ -6,8 +6,9 @@ Instead of hosting on the [cloud](https://en.wikipedia.org/wiki/Cloud_computing)
 ## Demo Video
 https://www.youtube.com/watch?v=H_-IlM78nM0
 
-## Websites currently hosted by MWS (feel free to submit a Pull Request!)
+## Websites currently hosted by MWS:
 - [MWS Demo Website](https://4f76-142-58-10-77.ngrok-free.app/)
+Is your website hosted on MWS? Feel free to submit a PR to add yours to this list!
 
 ## Prerequisites
 
