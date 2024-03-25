@@ -60,6 +60,8 @@ To install the application, follow these steps:
 1. Login or sign-up for a free account at https://dashboard.ngrok.com/signup
 2. Navigate to **Your Authtoken** to copy the authtoken
 
+## How it works
+
 ## Disclaimer
 Please adhere to all SFU CSIL (Computing Science Instructional Labs) policies: https://www.sfu.ca/computing/about/support/csil/policies.html  
 
