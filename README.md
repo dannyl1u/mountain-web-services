@@ -6,6 +6,17 @@ Instead of hosting on the [cloud](https://en.wikipedia.org/wiki/Cloud_computing)
 ## Demo Video
 https://www.youtube.com/watch?v=H_-IlM78nM0
 
+## Table of Contents
+1. [Websites currently hosted by MWS](#websites-currently-hosted-by-mws)
+2. [Prerequisites](#prerequisites)
+3. [Features](#features)
+4. [Installation and Usage](#installation-and-usage)
+5. [Generating SSH Key pair](#generating-ssh-key-pair)
+6. [Getting ngrok Authtoken](#getting-ngrok-authtoken)
+7. [How it works](#how-it-works)
+8. [Disclaimer](#disclaimer)
+9. [License](#license)
+
 ## Websites currently hosted by MWS:
 - [MWS Demo Website](https://4f76-142-58-10-77.ngrok-free.app/) by [@dannyl1u](https://github.com/dannyl1u)
 
