@@ -8,7 +8,8 @@ https://www.youtube.com/watch?v=H_-IlM78nM0
 
 ## Websites currently hosted by MWS:
 - [MWS Demo Website](https://4f76-142-58-10-77.ngrok-free.app/)
-Is your website hosted on MWS? Feel free to submit a PR to add yours to this list!
+
+Have a website hosted on MWS? Submit a PR to add yours to this list!
 
 ## Prerequisites
 
