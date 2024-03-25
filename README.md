@@ -61,11 +61,11 @@ To install the application, follow these steps:
 2. Navigate to **Your Authtoken** to copy the authtoken
 
 ## How it works
-- After user credentials are provided, MWS facilitates the SSH connection to a CSIL server
-- MWS automates the installation of all required dependencies including [ngrok](https://ngrok.com/download)
-- The user is prompted for a Git(GitHub, GitLab, etc.) repository containing the webpage to deploy
-- After the static files are cloned to the CSIL server, the MWS script starts a Python HTTP server to serve the website
-- **ngrok Tunnel Activation:** With the static site now being served on an SFU server, the ngrok tunnel created earlier is used to make this site accessible from the internet. The ngrok service assigns a unique URL (e.g., https://4f76-142-58-10-77.ngrok-free.app/) that routes to the local server on SFU's network, making the static site publicly accessible.
+- **Authentication**: After user credentials are provided, MWS facilitates the SSH connection to a CSIL server
+- **Dependencies**: MWS automates the installation of all required dependencies including [ngrok](https://ngrok.com/download)
+- **Git Integration**: The user is prompted for a Git(GitHub, GitLab, etc.) repository containing the webpage to deploy
+- **Python HTTP Server**: After the static files are cloned to the CSIL server, the MWS script starts a Python HTTP server to serve the website
+- **ngrok Tunnel Activation:**: With the static site now being served on an SFU server, the ngrok tunnel created earlier is used to make this site accessible from the internet. The ngrok service assigns a unique URL (e.g., https://4f76-142-58-10-77.ngrok-free.app/) that routes to the local server on SFU's network, making the static site publicly accessible 🎉
 
 ## Disclaimer
 Please adhere to all SFU CSIL (Computing Science Instructional Labs) policies: https://www.sfu.ca/computing/about/support/csil/policies.html  
