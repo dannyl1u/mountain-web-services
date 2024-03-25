@@ -6,6 +6,9 @@ Instead of hosting on the [cloud](https://en.wikipedia.org/wiki/Cloud_computing)
 ## Demo Video
 https://www.youtube.com/watch?v=H_-IlM78nM0
 
+## Websites currently hosted by MWS (feel free to submit a Pull Request!)
+- https://4f76-142-58-10-77.ngrok-free.app/
+
 ## Prerequisites
 
 Before you start using this application, ensure you have the following prerequisites set up and ready on your system:
