@@ -1,5 +1,5 @@
 # 🏞️ Mountain Web Services - Summit Static Sites (S3)
-Instead of hosting on the [cloud](https://en.wikipedia.org/wiki/Cloud_computing) ☁️, **Mountain Web Services - Summit Static Sites (MWS S3)** lets you host your static html/css/js websites (e.g. personal websites, portfolios, recipes, blogs, etc.), on the [mountain](https://en.wikipedia.org/wiki/Burnaby_Mountain) 🏔️, a 🆕 perspective on computing! 
+Instead of hosting on the [cloud](https://en.wikipedia.org/wiki/Cloud_computing) ☁️, **Mountain Web Services - Summit Static Sites (MWS S3)** lets you host your static html/css/js websites (e.g. personal websites, portfolios, recipes, blogs, etc.), on the [mountain](https://en.wikipedia.org/wiki/Burnaby_Mountain) 🏔️, a 🆕 perspective on computing! This is my submission for the [SFU Mountain Madness 2024 Hackathon](https://sfucsss.org/events/mm/2023).
 
 **Note:** This project, MWS S3, is not affiliated with or endorsed by Amazon Web Services (AWS) or Amazon S3. MWS S3 is a standalone project developed independently. Any resemblance to AWS services or terminology is purely coincidental.
 
