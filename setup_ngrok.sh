@@ -53,6 +53,15 @@ fi
 
 cd "$repo_dir" || exit
 
+# Run npm run build if package.json exists
+if [ -f package.json ]; then
+    echo "🏔️ Installing dependencies..."
+    npm install
+
+    echo "🏔️ Building the application..."
+    npm run build
+fi
+
 echo "🏔️ Starting the Python HTTP server on port 8080..."
 nohup python3 -m http.server 8080 > http.log 2>&1 &
 
